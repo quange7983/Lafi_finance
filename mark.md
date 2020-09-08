@@ -21,9 +21,9 @@ https://etherscan.io/address/0x0001fb050fe7312791bf6475b96569d83f695c9f#code
 https://etherscan.io/address/0xa81331893f2f9a59f7e5fab29fe7f246fa477059#code   
      
 第三步：打开https://www.diffchecker.com/，将YFI与LFI代码分别粘贴到左右各框，点”Find Difference”，即可看到颜色标记的不同之处。
- ![](_v_images/20200908184909550_9562.png =1211x)
+ ![](_v_images/20200908184909550_9562.png)
 
 若挖矿的合约代码只是修改了变量名称（例如YFI改成LFI）、修改代币ERC20地址、修改挖矿开始时间，那就是安全的。若发现合约代码增加了很多段函数，那就一定要小心了。
 （下图LFI代码安全，仅改动了代币名称和挖矿开始时间，确保头矿人人均有机会参与）
 
-![](_v_images/20200908184933890_26939.png =1297x)
+![](_v_images/20200908184933890_26939.png)
